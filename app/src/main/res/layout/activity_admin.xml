@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="40dp">
+       <Button
+           android:id="@+id/Usermanagement"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="UserdataManagement"
+           android:layout_gravity="center"
+           android:layout_marginTop="100dp"
+           android:textSize="24sp"
+           ></Button>
+        <Button
+            android:id="@+id/Dataupload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="Data Upload"
+            android:textSize="24sp"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>

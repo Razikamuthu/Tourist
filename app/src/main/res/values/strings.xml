@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tourist</string>
+    <string name="Language_prompt">Languages</string>
+
+    <string-array name="country_arrays">
+        <item>English</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+    </string-array>
+</resources>
